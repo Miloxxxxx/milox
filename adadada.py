@@ -16,6 +16,14 @@ sub.addWidget(lap)
 sub.addWidget(kno)
 main.addWidget(nadp)
 
+w2 = QRadioButton('Выбери')
+la = QCheckBox('Отметь')
+slid = QSlider()
+sub.addWidget(w2)
+sub.addWidget(la)
+sub.addWidget(slid)    
+
+
 def result():
     a = lap.text()
     try: 
